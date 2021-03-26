@@ -1,0 +1,23 @@
+﻿<Window x:Class="File_manager.AskWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:File_manager"
+        mc:Ignorable="d"
+        Title="AskWindow" Height="80" Width="350">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <TextBox Name="name" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="0" Height="auto" Margin="10,1,10,1" TextWrapping="Wrap" Text="" IsTabStop="True" VerticalAlignment="Top" Width="320"/>
+        <DockPanel Grid.Row="1" Grid.Column="0">
+            <Button Name="cancel" HorizontalAlignment="Left" Width="60" Height="20" Margin="10,0,10,0" IsTabStop="True" Content="close"/>
+            <Button Name="submit" HorizontalAlignment="Right" Width="60" Height="20" Margin="10,0,10,0" IsTabStop="True" Content="create"/>
+        </DockPanel>
+    </Grid>
+</Window>

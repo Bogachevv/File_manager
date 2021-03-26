@@ -1,0 +1,6 @@
+Left panel for local disk.
+Right panel for server(connect by FTP).
+If you want to change FTP connection settings you should lock at "Connection" menu:
+	If you press "info" button, you see connection info.
+	If you press "set" button, you can change connection data.
+	If you press "save" button, you can save connection data to config file.
